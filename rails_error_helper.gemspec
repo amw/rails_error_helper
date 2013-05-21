@@ -1,8 +1,10 @@
+# encoding: UTF-8
+
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.name        = "rails_error_helper"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.date        = "2013-05-03"
   s.summary     = "ActionView helper for displaying errors in rails forms."
   s.description = <<-TEXT
