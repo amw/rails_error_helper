@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.name        = "rails_error_helper"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.date        = "2013-05-03"
   s.summary     = "ActionView helper for displaying errors in rails forms."
   s.description = <<-TEXT
@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.files        = Dir["MIT-LICENSE", "lib/**/*"]
   s.require_path = "lib"
 
-  s.add_dependency "actionpack", "~> 3.2.12"
+  s.add_dependency "actionpack", ">= 3.2.12"
 end
